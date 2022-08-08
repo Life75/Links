@@ -10,7 +10,7 @@
     <div class="flex flex-row justify-center items-center">
       <aside class="w-64" aria-label="Sidebar">
         <div class="px-3 py-4 overflow-y-auto rounde">
-          <ul class="space-y-2">
+          <ul class="space-y-3.5">
             <li>
               <a
                 href="https://instagram.com/auzzydq?igshid=YmMyMTA2M2Y="
@@ -166,10 +166,10 @@ p {
 }
 
 a {
-  @apply text-slate-800;
+  @apply text-slate-800 ;
 }
 
 .links-tag {
-  @apply flex items-center p-2 text-base font-normal text-gray-900 rounded-lg border shadow-lg decoration-inherit;
+  @apply flex items-center p-2 text-base font-sans  backdrop-blur-lg   text-gray-900 rounded-lg border border-violet-700 shadow-lg bg-transparent bg-slate-100 bg-opacity-10  ;
 }
 </style>
